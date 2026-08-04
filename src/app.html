@@ -5,6 +5,9 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
 		<link rel="manifest" href="/site.webmanifest" />
 		<meta name="viewport" content="width=device-width" />
+		<!-- Tint mobile browser chrome to match daisyUI base-100 (light/dark via prefers-color-scheme) -->
+		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#faf7f5" />
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#201a17" />
 		%sveltekit.head%
 	</head>
 
